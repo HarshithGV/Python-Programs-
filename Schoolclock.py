@@ -15,5 +15,8 @@ def find_angle(x,y):
 timee = input("Enter Time : " )
 x,y = timee.split(":")
 
-print(find_angle(int(x), int(y)))
+
+for x in range(0,12,1):
+    for y in range(0,60,5):
+        print(find_angle(int(x), int(y)))
 

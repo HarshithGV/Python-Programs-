@@ -1,0 +1,7 @@
+x = 3
+y = 21
+
+for i in range(x,y,1):
+    print("\n\nMULTIPLICATION TABLE FOR %d\n" %(i))
+    for j in range(1,11):
+        print("%d X %d = %d" % (i, j, i*j))
